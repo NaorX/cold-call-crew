@@ -8,8 +8,6 @@ It's satire. Every caller, company and dollar in the game is fictional.
 
 [![Watch the trailer](docs/hero.jpg)](https://www.youtube.com/watch?v=59PPWtRvRPY)
 
-**[Watch the trailer on YouTube](https://www.youtube.com/watch?v=59PPWtRvRPY)**
-
 | | |
 |---|---|
 | ![A call](docs/call.jpg) | ![Asking the boss on Chatter](docs/chatter.jpg) |
