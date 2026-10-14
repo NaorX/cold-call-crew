@@ -1,0 +1,40 @@
+{
+  "name": "cold-call-crew",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A co-op comedy browser game: run the worst call center on Earth against live AI callers.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c yellow,cyan \"node --env-file-if-exists=.env --watch server/index.mjs\" \"vite\"",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource/alfa-slab-one": "^5.3.0",
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/luckiest-guy": "^5.3.0",
+    "three": "^0.186.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/three": "^0.186.0",
+    "concurrently": "^10.0.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaorX/cold-call-crew.git"
+  },
+  "homepage": "https://github.com/NaorX/cold-call-crew"
+}
