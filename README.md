@@ -6,7 +6,9 @@ Nothing to download for players: one person runs the server, everyone else opens
 
 It's satire. Every caller, company and dollar in the game is fictional.
 
-![The floor](docs/office.jpg)
+[![Watch the trailer](docs/hero.jpg)](https://www.youtube.com/watch?v=59PPWtRvRPY)
+
+**[Watch the trailer on YouTube](https://www.youtube.com/watch?v=59PPWtRvRPY)**
 
 | | |
 |---|---|
